@@ -8,7 +8,7 @@ def get_db_connection():
         database=os.environ.get("DB_NAME", "hotel_management"),
         user=os.environ.get("DB_USER", "postgres"),
         # Keep the application connection default aligned with init_db.py.
-        password=os.environ.get("DB_PASS", "Prathijnampn@2008"),
+        password=os.environ.get("DB_PASS", "200728"),
         port=os.environ.get("DB_PORT", "5432")
     )
 
